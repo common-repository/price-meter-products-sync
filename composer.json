@@ -1,0 +1,21 @@
+{
+    "name": "bilaliqbal/pricemeter-woocommerce-products-sync",
+    "description": "This plugin will make it super easy to sync your store products on Price Meter without much effort",
+    "require": {
+        "ict-master-pk/pricemeter-products-php": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Bilal Iqbal",
+            "email": "bilal@pricemeter.pk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PMProdSync\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    }
+}

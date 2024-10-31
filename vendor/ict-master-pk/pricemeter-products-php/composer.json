@@ -1,0 +1,26 @@
+{
+    "name": "ict-master-pk/pricemeter-products-php",
+    "description": "Price Meter PHP API to manage store specific products",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Bilal Iqbal",
+            "email": "bilal@pricemeter.pk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pricemeter\\": "src/"
+        }
+    },
+    "require-dev": {
+        "filp/whoops": "^2.9",
+        "symfony/var-dumper": "^5.2"
+    }
+}
